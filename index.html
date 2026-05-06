@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kevin Pérez | Portafolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="cursor-light"></div>
+
+  <header>
+    <a href="#inicio" class="logo">Kevin Pérez</a>
+
+    <nav>
+      <a href="#sobre-mi" data-es="Sobre mí" data-en="About me">Sobre mí</a>
+      <a href="#habilidades" data-es="Habilidades" data-en="Skills">Habilidades</a>
+      <a href="#proyectos" data-es="Proyectos" data-en="Projects">Proyectos</a>
+      <a href="#servicios" data-es="Servicios" data-en="Services">Servicios</a>
+      <a href="#contacto" data-es="Contacto" data-en="Contact">Contacto</a>
+    </nav>
+
+    <div class="acciones-header">
+      <button id="btnIdioma">EN</button>
+      <button id="modoBtn">🌙</button>
+      <div class="estado">
+        <span class="punto"></span>
+        <span data-es="Disponible" data-en="Available">Disponible</span>
+      </div>
+    </div>
+    
+  </header>
+
+  <main>
+
+    <section id="inicio" class="hero">
+      <div class="hero-text reveal">
+        <span class="etiqueta" data-es="Portafolio profesional" data-en="Professional portfolio">
+          Portafolio profesional
+        </span>
+
+        <h1>
+          <span data-es="Soporte TI" data-en="IT Support">Soporte TI</span><br>
+          <span data-es="& desarrollo web" data-en="& web development">& desarrollo web</span>
+        </h1>
+
+        <p data-es="Soy Kevin Pérez, estudiante de Ingeniería en Sistemas con experiencia en soporte técnico, atención a usuarios, diagnóstico de equipos y desarrollo de soluciones con Java, bases de datos y tecnologías web."
+           data-en="I am Kevin Pérez, a Computer Systems Engineering student with experience in technical support, user assistance, equipment diagnostics, and solution development using Java, databases, and web technologies.">
+          Soy Kevin Pérez, estudiante de Ingeniería en Sistemas con experiencia en soporte técnico,
+          atención a usuarios, diagnóstico de equipos y desarrollo de soluciones con Java, bases de datos
+          y tecnologías web.
+        </p>
+
+        <div class="acciones">
+          <a href="#proyectos" class="btn btn-principal" data-es="Ver proyectos" data-en="View projects">
+            Ver proyectos
+          </a>
+
+          <a id="cvEs" href="cv-kevin-perez-es.pdf" download class="btn btn-secundario">
+            Descargar CV ES
+          </a>
+
+          <a id="cvEn" href="cv-kevin-perez-en.pdf" download class="btn btn-secundario">
+            Download CV EN
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-cards">
+        <div class="card reveal delay-1">
+          <h3 data-es="Soporte técnico" data-en="Technical support">Soporte técnico</h3>
+          <p data-es="Atención presencial y remota, diagnóstico de equipos y resolución de incidencias."
+             data-en="On-site and remote assistance, equipment diagnostics, and issue resolution.">
+            Atención presencial y remota, diagnóstico de equipos y resolución de incidencias.
+          </p>
+          <div class="numero">01</div>
+        </div>
+
+        <div class="card reveal delay-2">
+          <h3 data-es="Desarrollo web" data-en="Web development">Desarrollo web</h3>
+          <p data-es="Creación de interfaces y soluciones básicas usando HTML, CSS, JavaScript y Java."
+             data-en="Creation of interfaces and basic solutions using HTML, CSS, JavaScript, and Java.">
+            Creación de interfaces y soluciones básicas usando HTML, CSS, JavaScript y Java.
+          </p>
+          <div class="numero">02</div>
+        </div>
+
+        <div class="card card-grande reveal delay-3">
+          <h3 data-es="Perfil profesional" data-en="Professional profile">Perfil profesional</h3>
+          <p data-es="Combino experiencia práctica en soporte TI con formación en sistemas, bases de datos, redes y programación orientada a objetos."
+             data-en="I combine hands-on IT support experience with academic training in systems, databases, networking, and object-oriented programming.">
+            Combino experiencia práctica en soporte TI con formación en sistemas, bases de datos,
+            redes y programación orientada a objetos.
+          </p>
+          <div class="numero">03</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-mi">
+  <div class="titulo-seccion reveal">
+    <h2 data-es="Sobre mí" data-en="About me">Sobre mí</h2>
+    <p data-es="Perfil orientado a resolución de problemas, soporte técnico y crecimiento en desarrollo."
+       data-en="Profile focused on problem solving, IT support and growth in development.">
+      Perfil orientado a resolución de problemas, soporte técnico y crecimiento en desarrollo.
+    </p>
+  </div>
+
+  <div class="sobre-grid">
+
+    <!-- TEXTO PRINCIPAL -->
+    <div class="sobre-texto reveal">
+      <h3 data-es="Quién soy" data-en="Who I am">Quién soy</h3>
+
+      <p data-es="Soy estudiante de Ingeniería en Sistemas con experiencia en soporte técnico, atención a usuarios, diagnóstico de equipos y resolución de incidencias en entornos reales."
+         data-en="I am a Computer Systems Engineering student with experience in technical support, user assistance, equipment diagnostics, and issue resolution.">
+        Soy estudiante de Ingeniería en Sistemas con experiencia en soporte técnico, atención a usuarios,
+        diagnóstico de equipos y resolución de incidencias en entornos reales.
+      </p>
+
+      <p data-es="Actualmente me encuentro fortaleciendo mis conocimientos en desarrollo web, bases de datos y redes, con el objetivo de crecer profesionalmente en el área tecnológica."
+         data-en="I am currently strengthening my skills in web development, databases and networking to grow professionally in the tech field.">
+        Actualmente me encuentro fortaleciendo mis conocimientos en desarrollo web, bases de datos y redes.
+      </p>
+    </div>
+
+    <!-- MÉTRICAS -->
+    <div class="sobre-metricas reveal delay-1">
+      <div class="metrica">
+        <h4>110+</h4>
+        <span data-es="Tickets por semana" data-en="Tickets per week">Tickets por semana</span>
+      </div>
+
+      <div class="metrica">
+        <h4>3+</h4>
+        <span data-es="Experiencias TI" data-en="IT roles">Experiencias TI</span>
+      </div>
+
+      <div class="metrica">
+        <h4>100%</h4>
+        <span data-es="Satisfacción en iCon" data-en="Customer satisfaction">Satisfacción en iCon</span>
+      </div>
+    </div>
+
+    <!-- TARJETAS -->
+    <div class="sobre-cards">
+
+      <div class="sobre-card reveal">
+        <h3 data-es="Enfoque" data-en="Focus">Enfoque</h3>
+        <p data-es="Resolución de problemas, atención al usuario y eficiencia técnica."
+           data-en="Problem solving, user support and technical efficiency.">
+          Resolución de problemas, atención al usuario y eficiencia técnica.
+        </p>
+      </div>
+
+      <div class="sobre-card reveal delay-1">
+        <h3 data-es="Objetivo" data-en="Goal">Objetivo</h3>
+        <p data-es="Desarrollarme en soporte TI, redes o desarrollo de software."
+           data-en="Grow in IT support, networking or software development.">
+          Desarrollarme en soporte TI, redes o desarrollo de software.
+        </p>
+      </div>
+
+      <div class="sobre-card reveal delay-2">
+        <h3 data-es="Fortalezas" data-en="Strengths">Fortalezas</h3>
+        <p data-es="Aprendizaje rápido, adaptabilidad y trabajo en equipo."
+           data-en="Fast learning, adaptability and teamwork.">
+          Aprendizaje rápido, adaptabilidad y trabajo en equipo.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+    <section id="habilidades">
+      <div class="titulo-seccion reveal">
+        <h2 data-es="Habilidades" data-en="Skills">Habilidades</h2>
+        <p data-es="Áreas principales que puedo aportar en un entorno tecnológico."
+           data-en="Main areas I can contribute to in a technology environment.">
+          Áreas principales que puedo aportar en un entorno tecnológico.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill reveal" data-es="Soporte Técnico" data-en="Technical Support">Soporte Técnico</div>
+        <div class="skill reveal delay-1">Windows</div>
+        <div class="skill reveal delay-2">macOS</div>
+        <div class="skill reveal delay-3" data-es="Redes básicas" data-en="Basic Networking">Redes básicas</div>
+        <div class="skill reveal">HTML</div>
+        <div class="skill reveal delay-1">CSS</div>
+        <div class="skill reveal delay-2">JavaScript</div>
+        <div class="skill reveal delay-3">Java</div>
+        <div class="skill reveal">SQL Server</div>
+        <div class="skill reveal delay-1">MySQL</div>
+        <div class="skill reveal delay-2">Java Derby</div>
+        <div class="skill reveal delay-3">GitHub</div>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <div class="titulo-seccion reveal">
+        <h2 data-es="Proyectos" data-en="Projects">Proyectos</h2>
+        <p data-es="Trabajos académicos y prácticos relacionados con programación, bases de datos, redes y diseño."
+           data-en="Academic and practical projects related to programming, databases, networking, and design.">
+          Trabajos académicos y prácticos relacionados con programación, bases de datos, redes y diseño.
+        </p>
+      </div>
+
+      <div class="proyectos-grid">
+
+        <article class="proyecto reveal">
+          <div class="flecha">↗</div>
+          <div>
+            <h3 data-es="Sistema de Facturación" data-en="Billing System">Sistema de Facturación</h3>
+            <p data-es="Sistema en Java para gestionar clientes, productos, usuarios, roles, facturación e historial de compras."
+               data-en="Java system for managing customers, products, users, roles, billing, and purchase history.">
+              Sistema en Java para gestionar clientes, productos, usuarios, roles, facturación e historial de compras.
+            </p>
+          </div>
+          <div class="tags">
+            <span>Java</span>
+            <span>POO</span>
+            <span>JOptionPane</span>
+          </div>
+        </article>
+
+        <article class="proyecto reveal delay-1">
+          <div class="flecha">↗</div>
+          <div>
+            <h3 data-es="Cliente-Servidor" data-en="Client-Server">Cliente-Servidor</h3>
+            <p data-es="Proyecto con comunicación por red usando sockets, servidor multihilo y conexión de clientes."
+               data-en="Network communication project using sockets, a multithreaded server, and client connections.">
+              Proyecto con comunicación por red usando sockets, servidor multihilo y conexión de clientes.
+            </p>
+          </div>
+          <div class="tags">
+            <span>Java</span>
+            <span>Socket</span>
+            <span>ServerSocket</span>
+          </div>
+        </article>
+
+        <article class="proyecto reveal">
+          <div class="flecha">↗</div>
+          <div>
+            <h3 data-es="CRUD con Base de Datos" data-en="Database CRUD">CRUD con Base de Datos</h3>
+            <p data-es="Aplicación para registrar, consultar y validar términos mediante una base de datos integrada."
+               data-en="Application to register, query, and validate terms using an embedded database.">
+              Aplicación para registrar, consultar y validar términos mediante una base de datos integrada.
+            </p>
+          </div>
+          <div class="tags">
+            <span>Java</span>
+            <span>Derby</span>
+            <span>JDBC</span>
+          </div>
+        </article>
+
+        <article class="proyecto reveal delay-1">
+          <div class="flecha">↗</div>
+          <div>
+            <h3 data-es="Diseño UI/UX" data-en="UI/UX Design">Diseño UI/UX</h3>
+            <p data-es="Prototipo móvil diseñado en Figma con pantallas de historial, perfil, pagos, notificaciones y configuración."
+               data-en="Mobile prototype designed in Figma with history, profile, payments, notifications, and settings screens.">
+              Prototipo móvil diseñado en Figma con pantallas de historial, perfil, pagos, notificaciones y configuración.
+            </p>
+          </div>
+          <div class="tags">
+            <span>Figma</span>
+            <span>UI</span>
+            <span>UX</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="servicios">
+      <div class="titulo-seccion reveal">
+        <h2 data-es="Servicios ofrecidos" data-en="Services">Servicios ofrecidos</h2>
+        <p data-es="Servicios que puedo brindar según mi experiencia técnica y formación actual."
+           data-en="Services I can provide based on my technical experience and current training.">
+          Servicios que puedo brindar según mi experiencia técnica y formación actual.
+        </p>
+      </div>
+
+      <div class="servicios-grid">
+        <div class="servicio reveal">
+          <h3 data-es="Soporte técnico" data-en="Technical support">Soporte técnico</h3>
+          <p data-es="Diagnóstico, mantenimiento, configuración básica y asistencia a usuarios en Windows y macOS."
+             data-en="Diagnostics, maintenance, basic configuration, and user assistance on Windows and macOS.">
+            Diagnóstico, mantenimiento, configuración básica y asistencia a usuarios en Windows y macOS.
+          </p>
+        </div>
+
+        <div class="servicio reveal delay-1">
+          <h3 data-es="Desarrollo web básico" data-en="Basic web development">Desarrollo web básico</h3>
+          <p data-es="Creación de páginas web informativas con HTML, CSS y JavaScript."
+             data-en="Creation of informational websites using HTML, CSS, and JavaScript.">
+            Creación de páginas web informativas con HTML, CSS y JavaScript.
+          </p>
+        </div>
+
+        <div class="servicio reveal delay-2">
+          <h3 data-es="Gestión de bases de datos" data-en="Database management">Gestión de bases de datos</h3>
+          <p data-es="Diseño básico, consultas SQL y conexión de aplicaciones Java con bases de datos."
+             data-en="Basic design, SQL queries, and Java application connection with databases.">
+            Diseño básico, consultas SQL y conexión de aplicaciones Java con bases de datos.
+          </p>
+        </div>
+
+        <div class="servicio reveal delay-3">
+          <h3 data-es="Prototipado UI/UX" data-en="UI/UX prototyping">Prototipado UI/UX</h3>
+          <p data-es="Diseño de interfaces en Figma para aplicaciones web o móviles."
+             data-en="Interface design in Figma for web or mobile applications.">
+            Diseño de interfaces en Figma para aplicaciones web o móviles.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="contacto-box reveal">
+        <div>
+          <span class="etiqueta" data-es="Contacto" data-en="Contact">Contacto</span>
+          <h2 data-es="Trabajemos juntos." data-en="Let's work together.">Trabajemos juntos.</h2>
+        </div>
+
+        <div class="contacto-info">
+          <div class="contacto-item">
+            <small data-es="Correo" data-en="Email">Correo</small>
+            <p>kevlyn1205@hotmail.com</p>
+          </div>
+
+          <div class="contacto-item">
+            <small>LinkedIn</small>
+            <a href="https://www.linkedin.com/in/kevin-pérez-cedeño" target="_blank">
+              Kevin Pérez Cedeño
+            </a>
+          </div>
+
+          <div class="contacto-item">
+            <small>GitHub</small>
+            <a href="https://github.com/Kevin90112/" target="_blank">
+              Kevin90112
+            </a>
+          </div>
+
+          <div class="contacto-item">
+            <small>CV</small>
+            <a href="cv-kevin-perez-es.pdf" download>CV Español</a>
+            <br>
+            <a href="cv-kevin-perez-en.pdf" download>CV English</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Kevin Pérez</p>
+    <p data-es="Portafolio web personal" data-en="Personal web portfolio">Portafolio web personal</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
